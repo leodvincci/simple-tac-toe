@@ -1,0 +1,14 @@
+.game-piece{
+    height: 150px;
+    width: 150px;
+    background-color: #36655b;
+    border-radius: 28px;
+    margin:20px;
+    margin-left: 50px;
+    transition-duration: 150ms;
+}
+
+.game-piece:hover{
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
