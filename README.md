@@ -1,7 +1,7 @@
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # simple-tac-toe
 
-<img height="800" src="src/2022-06-28_17-43-35_AdobeExpress.gif" width="1200"/>
+<img height="600" src="src/2022-06-28_17-43-35_AdobeExpress.gif" width="1200"/>
 
 
 # Getting Started with Create React App
