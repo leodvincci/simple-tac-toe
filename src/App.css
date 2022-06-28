@@ -12,6 +12,15 @@ body{
     text-align: center;
 }
 
+.xoro{
+    font-family: 'Press Start 2P', cursive;
+    margin: 40px auto;
+    font-size: 60px;
+    width: 60px;
+    color: whitesmoke;
+    text-shadow: 2px 2px #66bfac;
+}
+
 h4{
     position: relative;
     bottom:65px;
