@@ -1,13 +1,14 @@
 import React, {useState} from "react";
 import "./gamePiece.css";
 import "./App.css"
+import mp3 from "./buttonSound.mp3"
 import gamePieceData from "./gamePieceData.json"
 
 function GamePiece(props) {
 
     const [gamePieceState, setGamePieceState] = useState({"id":props.theKey,"xo":props.theXOstate})
 
-
+    const audio = new Audio( mp3);
 
 
     function userMakeMove(){
@@ -18,12 +19,18 @@ function GamePiece(props) {
 
     let xoro = ""
 
+    const start = () => {
+        audio.play().then(r => {});
+    };
+
     function colorChange(){
         if(gamePieceState.xo){
             xoro = "O"
+            start();
             return {backgroundColor:"#ae3239"}
         }else if(gamePieceState.xo === false){
             xoro = "X"
+            start();
             return {backgroundColor:"darkslateblue"}
         }else if(gamePieceState.xo === null) {
 
